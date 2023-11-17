@@ -12,7 +12,7 @@ export function DependencyProvider({ myService, children })
     return
     (
         <DependencyContext.Provider value={{ myService }}>
-            {children}
+            {children}   
         </DependencyContext.Provider>
     )
 }
